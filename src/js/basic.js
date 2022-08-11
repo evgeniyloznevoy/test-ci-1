@@ -1,9 +1,7 @@
-// eslint-disable-next-line max-classes-per-file
 import Character from './user';
 
 class Game {
   start() {
-    // eslint-disable-next-line no-console
     console.log('game started');
     this.character = new Character();
   }
